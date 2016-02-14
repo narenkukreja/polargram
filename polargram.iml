@@ -29,9 +29,12 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.5, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.2.0.0, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.10.6, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v8.2.2, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="climate_control (v0.0.3, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cocaine (v0.5.8, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.1, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.10.0, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
@@ -47,10 +50,12 @@
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.3, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.3, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v2.99, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mimemagic (v0.3.0, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.0.0, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.8.4, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.11.2, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.7.2, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="paperclip (v4.3.5, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.5, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
@@ -63,6 +68,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.21, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.4, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.2.1, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v1.6.3, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.5.2, RVM: ruby-2.2.3 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.0.1, RVM: ruby-2.2.3 [global]) [gem]" level="application" />

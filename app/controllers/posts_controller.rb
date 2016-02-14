@@ -1,0 +1,25 @@
+class PostsController < ApplicationController
+
+  def index
+    @posts = Post.all
+  end
+
+  def new
+    @post = Post.new
+  end
+
+  def create
+    @post = Post.create(post_params)
+    redirect_to post_path
+  end
+
+end
+
+private
+
+#Accept image and caption in the create method
+def post_params
+
+  params.require(:post).permit(:image, :caption)
+
+end

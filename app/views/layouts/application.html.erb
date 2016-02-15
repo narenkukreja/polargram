@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Polargram</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+    <title>Polargram</title>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
 </head>
-<%=	render 'layouts/header' %>
+<%= render 'layouts/header' %>
 
 <body>
 <div class="container">
@@ -14,7 +14,7 @@
         <%= content_tag :div, msg, class: [:alert, alert_for(name)] %>
     <% end %>
     <%= yield %>
+    <%=	render 'layouts/footer' %>
 </div>
-
 </body>
 </html>

@@ -1,6 +1,6 @@
 class Post < ActiveRecord::Base
 
-  has_many :comments, dependent: destroy
+  has_many :comments
   validates :user_id, presence: true
   belongs_to :user
   validates :image, presence: true

@@ -1,17 +1,21 @@
 class PostsController < ApplicationController
 
   before_action :find_post, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
+  before_action :owned_post, only: [:show, :edit, :update, :destroy]
 
   def index
     @posts = Post.all
   end
 
   def new
-    @post = Post.new
+    @post = current_user.posts.build
   end
 
   def create
-    if (@post = Post.create(post_params))
+
+    @post = current_user.posts.build(post_params)
+    if @post.save
       flash[:success] = "Post created."
       redirect_to posts_path
     else
@@ -53,4 +57,11 @@ end
 
 def find_post
   @post = Post.find(params[:id])
-end  
+end
+
+def owned_post
+  unless current_user == @post.user
+    flash[:alert] = "These are not your posts."
+    redirect_to root_path
+  end
+end

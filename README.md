@@ -18,5 +18,7 @@ Live demo: https://polargram.herokuapp.com
 <li>JavaScript</li>
 <li>AJAX</li>
 <li>jQuery</li>
+<li>HTML/SCSS</li>
+
 </ul>
 

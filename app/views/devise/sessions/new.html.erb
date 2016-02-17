@@ -13,6 +13,7 @@
                             <%= f.input :password, required: true, label: false, placeholder: 'Password', input_html: { class: 'input-lg' } %>
                             <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
                             <%= f.button :submit, "Log in", class: 'btn-lg btn-info btn-block' %>
+                            <%= link_to "Sign up", new_user_registration_path ,class: 'btn-lg btn-info btn-block' %>
                         </div>
                     <% end %>
                 </div>

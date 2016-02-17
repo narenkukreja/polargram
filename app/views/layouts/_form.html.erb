@@ -2,7 +2,7 @@
     <div class="post">
         <div class="post-body">
             <div class="image-wrap">
-                <%= image_tag 'placeholder.jpg', id: 'image-preview', class: 'img-responsive' %>
+                <%= form_image_select(@post) %>
                 <%= simple_form_for @post, html: { multipart: true } do |f| %>
                     <div class="row">
                         <div class="col-md-12 text-center">
@@ -11,7 +11,7 @@
                     </div>
                     <div class="container-fluid">
                         <div class="form-group text-center">
-                            <h4>Upload an image (this is required):</h4>
+                            <h4>Upload an image:</h4>
                             <%= f.input :image, label: false, input_html: { onChange: 'loadFile(event)' } %>
                         </div>
                         <div class="form-group text-center">

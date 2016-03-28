@@ -1,7 +1,11 @@
 
-# Polargram(Beta) - Instagram Clone made built with Ruby on Rails!
+# Polargram(Beta) - Instagram Clone made with Ruby on Rails!
 
 Live - https://polargram.herokuapp.com
+
+# In Action
+
+![Alt Text](https://github.com/narenkukreja/polargram/blob/master/app/assets/images/polargram.gif)
 
 <img src="http://i.imgur.com/qfFr5ul.png"/>
 <img src="http://i.imgur.com/K9oywYR.png"  />
